@@ -11,7 +11,7 @@ O usuario após criar sua conta na rota '/signup' pode se logar no sistema atrav
 Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer <token>" sem usar os <> no token
 
 Funcionalidades:
-1.O usuário pode criar, excluir**, editar e visualizar sua conta.
+1.O usuário pode criar, excluir*, editar e visualizar sua conta.
 2.O usuário pode criar, excluir*, editar e visualizar suas publicações.
 3.O usuário pode criar, excluir, editar e visualizar comentários em suas publicações.
 4.O usuário pode criar, excluir, editar e visualizar seus comentários em publicações de outros usuários.
@@ -49,5 +49,5 @@ Restrições:
 4.Numero maximo de caracteres é de 140 tanto para twitts quanto comentarios. 
 
 *Ao excluir um twitt todos os comentarios associados são excluidos, sejam do usuario ou de terceiros.
-**A conta é excluida através de soft delete, logo ela permanece no banco de dados, mas não é listada nas contas da aplicação.
-**Ao excluir uma conta todos os twitts/comentarios associados são excluidos, sejam do usuario ou de terceiros.
+*A conta é excluida através de soft delete, logo ela permanece no banco de dados, mas não é listada nas contas da aplicação.
+*Ao excluir uma conta todos os twitts/comentarios associados são excluidos, sejam do usuario ou de terceiros.
