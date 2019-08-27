@@ -8,7 +8,7 @@
 As rotas para utillização se encontram no arquivo "routes.js" na paste config, todos comentados para facilitar o uso.<br />
 Todas rotas são somente acessadas somente por quem ja esta logado no sistema, exceto '/signin', '/signup' e '/validateToken' que são        publicas.<br />
 O usuario após criar sua conta na rota '/signup' pode se logar no sistema através da rota '/signin', quando o fizer irá receber um token    que deverá usar para acessar todas as rotas que não são publicas.<br />
-Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer <token>" sem usar os <> no token<br />
+Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer 'token' " sem usar aspas no token<br />
 
 Funcionalidades:<br />
 1.O usuário pode criar, excluir*, editar e visualizar sua conta.<br />
