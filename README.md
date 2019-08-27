@@ -1,13 +1,13 @@
 <h1>Backend simulando uma aplicação real similar ao Twitter.</h1>
-<p>Primeiramente para utilizar o sistema precisar instalar as dependencias, visto que node_modules não esta no repositorio</p>
-<p>Entao deve-se configurar o arquivo env_file, preencher todos campos de acordo com sem ambiente local, e utilizar algum valor em 'authSecret', qualquer valor serve</p>
-<p>Caso esteja usando um banco de dados que não seja mysql alter o valor do campo 'client' no arquivo knexfile.js</p>
-<p>O programa esta rodando na porta 3000, isso pode ser alterado no arquivo index.js</p>
-<p>Todas migrations são feitas ao rodar o codigo com "npm start"</p>
+<p>Primeiramente para utilizar o sistema precisar instalar as dependencias, visto que node_modules não esta no repositorio.</p>
+<p>Entao deve-se configurar o arquivo env_file, preencher todos campos de acordo com sem ambiente local, e utilizar algum valor em          'authSecret', qualquer valor serve.</p>
+<p>Caso esteja usando um banco de dados que não seja mysql alter o valor do campo 'client' no arquivo 'knexfile.js'.</p>
+<p>O programa esta rodando na porta 3000, isso pode ser alterado no arquivo index.js.</p>
+<p>Todas migrations são feitas ao rodar o codigo com "npm start".</p>
 
 As rotas para utillização se encontram no arquivo "routes.js" na paste config, todos comentados para facilitar o uso.<br />
-Todas rotas são somente acessadas somente por quem ja esta logado no sistema, exceto '/signin', '/signup' e '/validateToken' que são publicas.<br />
-O usuario após criar sua conta na rota '/signup' pode se logar no sistema através da rota '/signin', quando o fizer irá receber um token que deverá usar para acessar todas as rotas que não são publicas.<br />
+Todas rotas são somente acessadas somente por quem ja esta logado no sistema, exceto '/signin', '/signup' e '/validateToken' que são        publicas.<br />
+O usuario após criar sua conta na rota '/signup' pode se logar no sistema através da rota '/signin', quando o fizer irá receber um token    que deverá usar para acessar todas as rotas que não são publicas.<br />
 Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer <token>" sem usar os <> no token<br />
 
 Funcionalidades:<br />
