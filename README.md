@@ -11,11 +11,13 @@ O usuario após criar sua conta na rota '/signup' pode se logar no sistema atrav
 Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer 'token' " sem usar aspas no token<br />
 
 #### Funcionalidades:<br />
-1.O usuário pode criar, excluir*, editar e visualizar sua conta.<br />
-2.O usuário pode criar, excluir*, editar e visualizar suas publicações.<br />
-3.O usuário pode criar, excluir, editar e visualizar comentários em suas publicações.<br />
-4.O usuário pode criar, excluir, editar e visualizar seus comentários em publicações de outros usuários.<br />
-5.O usuário pode visualizar a listagem de todas as publicações de todos usuários, ordenadas por data.<br />
+<ol>
+<li>O usuário pode criar, excluir*, editar e visualizar sua conta.</li>
+<li>O usuário pode criar, excluir*, editar e visualizar suas publicações.</li>
+<li>O usuário pode criar, excluir, editar e visualizar comentários em suas publicações.</li>
+<li>O usuário pode criar, excluir, editar e visualizar seus comentários em publicações de outros usuários.</li>
+<li>O usuário pode visualizar a listagem de todas as publicações de todos usuários, ordenadas por data.</li>
+</ol>
 
 Formato do json para cadastro:<br />
 {<br />
@@ -43,11 +45,13 @@ Formato do json para postar um comentario:<br />
 }<br />
 
 #### Restrições:<br />
-1.O usuário NÃO PODE excluir e editar a conta de outros usuários.<br />
-2.O usuário NÃO PODE excluir e editar as publicações de outros usuários.<br />
-3.O usuário NÃO PODE excluir e editar as comentários de outros usuários.<br />
-4.Numero maximo de caracteres é de 140 tanto para twitts quanto comentarios. <br />
+<ol>
+<li>O usuário NÃO PODE excluir e editar a conta de outros usuários.</li>
+<li>O usuário NÃO PODE excluir e editar as publicações de outros usuários.</li>
+<li>O usuário NÃO PODE excluir e editar as comentários de outros usuários.</li>
+<li>Numero maximo de caracteres é de 140 tanto para twitts quanto comentarios. </li>
+</ol>
 
-*Ao excluir um twitt todos os comentarios associados são excluidos, sejam do usuario ou de terceiros.<br />
-*A conta é excluida através de soft delete, logo ela permanece no banco de dados, mas não é listada nas contas da aplicação.<br />
-*Ao excluir uma conta todos os twitts/comentarios associados são excluidos, sejam do usuario ou de terceiros.<br />
+<i>*Ao excluir um twitt todos os comentarios associados são excluidos, sejam do usuario ou de terceiros.</i><br />
+<i>*A conta é excluida através de soft delete, logo ela permanece no banco de dados, mas não é listada nas contas da aplicação.</i><br />
+<i>*Ao excluir uma conta todos os twitts/comentarios associados são excluidos, sejam do usuario ou de terceiros.</i><br />
