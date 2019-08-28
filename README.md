@@ -55,3 +55,6 @@ Para usar o token bastar criar um header "Authorization" e colocar seu valor com
 <i>*Ao excluir um twitt todos os comentarios associados são excluidos, sejam do usuario ou de terceiros.</i><br />
 <i>*A conta é excluida através de soft delete, logo ela permanece no banco de dados, mas não é listada nas contas da aplicação.</i><br />
 <i>*Ao excluir uma conta todos os twitts/comentarios associados são excluidos, sejam do usuario ou de terceiros.</i><br />
+
+## Favor informar eventuais bugs:
+<strong> gwollmann04@gmail.com </strong>
