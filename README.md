@@ -19,7 +19,7 @@ Para usar o token bastar criar um header "Authorization" e colocar seu valor com
 <li>O usuário pode visualizar a listagem de todas as publicações de todos usuários, ordenadas por data.</li>
 </ol>
 
-Formato do json para cadastro:<br />
+**Formato do json para cadastro:**<br />
 {<br />
     "name": "seu nome",<br />
     "email: "seu_email@email.com",<br />
@@ -27,18 +27,18 @@ Formato do json para cadastro:<br />
     "confirmPassword": "sua senha"<br />
 }<br />
 
-Formato do json para login:<br />
+**Formato do json para login:**<br />
 {<br />
     "email: "seu_email@email.com",<br />
     "password": "sua senha"<br />
 }<br />
 
-Formato do json para postar um twitt:<br />
+**Formato do json para postar um twitt:**<br />
 {<br />
     "content: "Seu twitt"<br />
 }<br />
 
-Formato do json para postar um comentario:<br />
+**Formato do json para postar um comentario:**<br />
 {<br />
     "content: "Seu twitt",<br />
     "twittId": "Id do twitt que deseja comentar"<br />
