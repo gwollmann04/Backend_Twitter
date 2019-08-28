@@ -10,7 +10,7 @@ Todas rotas são somente acessadas somente por quem ja esta logado no sistema, e
 O usuario após criar sua conta na rota '/signup' pode se logar no sistema através da rota '/signin', quando o fizer irá receber um token    que deverá usar para acessar todas as rotas que não são publicas.<br />
 Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer 'token' " sem usar aspas no token<br />
 
-Funcionalidades:<br />
+#### Funcionalidades:<br />
 1.O usuário pode criar, excluir*, editar e visualizar sua conta.<br />
 2.O usuário pode criar, excluir*, editar e visualizar suas publicações.<br />
 3.O usuário pode criar, excluir, editar e visualizar comentários em suas publicações.<br />
@@ -42,7 +42,7 @@ Formato do json para postar um comentario:<br />
     "twittId": "Id do twitt que deseja comentar"<br />
 }<br />
 
-Restrições:<br />
+#### Restrições:<br />
 1.O usuário NÃO PODE excluir e editar a conta de outros usuários.<br />
 2.O usuário NÃO PODE excluir e editar as publicações de outros usuários.<br />
 3.O usuário NÃO PODE excluir e editar as comentários de outros usuários.<br />
