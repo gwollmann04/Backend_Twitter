@@ -1,5 +1,5 @@
 <h1>Backend simulando uma aplicação real similar ao Twitter.</h1>
-<p>Primeiramente para utilizar o sistema precisar instalar as dependencias, visto que node_modules não esta no repositorio.</p>
+<p>Primeiramente para utilizar o sistema precisar instalar as dependencias, visto que node_modules não esta no repositorio. Pode ser feito usando "npm i"</p>
 <p>Entao deve-se configurar o arquivo env_file, preencher todos campos de acordo com sem ambiente local, e utilizar algum valor em          'authSecret', qualquer valor serve.</p>
 <p>Caso esteja usando um banco de dados que não seja mysql alter o valor do campo 'client' no arquivo 'knexfile.js'.</p>
 <p>O programa esta rodando na porta 3000, isso pode ser alterado no arquivo index.js.</p>
